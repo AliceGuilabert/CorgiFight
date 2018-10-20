@@ -69,6 +69,8 @@ public class GameManager : MonoBehaviour {
         myCorgi = GameObject.FindGameObjectWithTag("Player").GetComponent<BaseAvatar>();
         myCanvas = GameObject.FindGameObjectWithTag("UI").GetComponent<CanvasController>();
         myScore = GetComponent<ScoreSystem>();
+        mylevel = GetComponent<Level>();
+        Debug.Assert(mylevel != null);
         wavesObjectif.text = "";
         UpdateNiveau();
         // UpdateTest();
@@ -143,8 +145,7 @@ public class GameManager : MonoBehaviour {
         {
             end = true;
 
-            mylevel = GetComponent<Level>();
-            Debug.Assert(mylevel != null);
+           
 
             levelDescription = XmlHelpers.DeserializeDatabaseFromXML<LevelDescription>(this.levelsDatabase);
             if (levelDescription == null)
