@@ -4,7 +4,7 @@ Shooter 2D réalisé en une semaine dans le cadre de la rentrée à JIN.
 ### Consigne :
 A la rentrée de notre spécialisation nous avions une semaine pour pour développer un shooter dont les graphismes étaient libres mais les fonctionalités et contrôles attendus étaient géré par un cahier des charges très stricte et complet.
 
-#### Lien du Build : https://drive.google.com/open?id=1sd2u-TtlXDRmj38DeKstkITj9mi9XnLr 
+#### Lien du Build : https://drive.google.com/open?id=1G3jFZZ8ojqiwJI1P-o0ZMhn9Psjm70tB
 
 ### Principe :
 Vous incarnez un corgi, cette adorable race de chien courte sur patte, qui décide un jour qu'il est grand temps de mettre fin à l'invasion des félins. Vous vous retrouvez donc dans l'espace (?) à devoir survivre face aux vagues d'ennemis variés, en nombre précis ou simplement le plus longtemps possible.
